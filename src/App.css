@@ -1,0 +1,24 @@
+:root {
+  --yellow: #f4c145;
+  --green: #13a8a1;
+  --white: #ffffff;
+  --black: #000000;
+  --light-black: #282828;
+  --light-gray: #f8f8f9;
+  --light-orange: #f79845;
+  --blue: #6eb3e1;
+  --orange-background:linear-gradient(90deg,
+    rgba(228,118,83,1) 0%,
+    rgba(237,135,75,1) 50%,
+    rgba(248,154,68,1) 100%);
+}
+.ctm_btn{
+  padding: 7px 15px !important;
+  border-radius: 3px !important;
+  border: none !important;
+  width: max-content;
+}
+.btn_green{
+  background-color: var(--green) !important;
+  color: var(--white) !important;
+}

@@ -1,0 +1,26 @@
+.navbar_container{
+    border-bottom: 1px solid #ebebeb;
+}
+.nav_bx{
+    justify-content: flex-end;
+}
+.nav_bar{
+    font-weight: 500;
+    align-items: center;
+}
+.nav_bar a{
+    margin: 0 5px;
+    text-decoration: none;
+    color: var(--light-black);
+}
+a.login_link{
+    color: var(--green);
+    margin: 0 20px;
+}
+.download_btn{
+    background-color: var(--yellow);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--white) !important;
+    font-weight: 500;
+}

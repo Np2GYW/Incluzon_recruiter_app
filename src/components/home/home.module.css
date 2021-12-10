@@ -1,0 +1,180 @@
+/*Home page theme Start*/
+.theme_text_bx h3{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.theme_text_bx p{
+    font-weight: 500;
+    font-size: 15px;
+}
+/*Home page theme Start*/
+
+/*Banner Section Start*/
+.banner_sec{
+    padding: 70px 0;
+}
+.banner_right_bx{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+/*Banner Section End*/
+
+/*Download Section Start*/
+.download_sec{
+    padding: 70px 0;
+    position: relative;
+}
+.download_bg{
+    position: absolute;
+    height: 85%;
+    width: 680px;
+    background: #f5fdff;
+    z-index: -1;
+    border-radius: 30px;
+    left: -30px;
+    top: 10%;
+}
+/*Download Section End*/
+/*About us Section Start*/
+.about_section{
+    background-color: var(--light-gray);
+    padding: 50px 0;
+}
+.about_right_bx{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 82%;
+    margin-top: 10%;
+}
+.about_social_links ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.about_social_links ul li{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.about_social_links ul li a{
+    color: var(--light-black);
+}
+/*About us Section End*/
+/*what we do Section Start*/
+.we_do_section{
+    padding: 60px 0;
+}
+.we_do_txt_bx{
+    text-align: center;
+}
+.we_do_txt_bx p{
+    max-width: 740px;
+    margin: 0 auto 40px;
+}
+.we_do_services{
+    text-align: center;
+    padding: 0 40px;
+}
+.we_do_services h5{
+    margin: 10px 0;
+}
+/*what we do Section End*/
+/*our Partners Section Start*/
+.our_partners_sec{
+    padding: 50px 0;
+}
+.partners_txt_bx{
+    text-align: center;
+}
+.partners_txt_bx p{
+    max-width: 740px;
+    margin: 0 auto 40px;
+}
+.company_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.company_logo_row{
+    justify-content: center;
+}
+/*our Partners Section End*/
+
+/*Contact us Section Start*/
+.contact_us{
+    padding: 50px 0;
+}
+.contact_bx{
+    background: var(--orange-background);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_bx p{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 50px;
+    color: var(--white);
+}
+.contact_us_btn{
+    min-width: 180px;
+    color: var(--light-orange);
+    background-color: var(--white);
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 10px;
+}
+/*Contact us Section End*/
+
+/*Contact form Section Start*/
+.contact_form{
+    background-color: var(--light-gray);
+    padding: 130px 0;
+}
+.blue_bx{
+    background-color: var(--blue);
+    position: relative;
+}
+.form_left_bx{
+    padding: 30px 0;
+}
+.form_left_bx p{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+.form_right_bx{
+    position: absolute;
+    top: -60px;
+    border-radius: 15px;
+    min-width: 350px;
+    box-shadow: 0px 0px 23px 0px rgb(149 149 149 / 75%);
+    padding: 20px;
+    right: 120px;
+}
+.form_right_bx .form_h{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+.ctm_contact_form input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="number"]::placeholder,
+textarea::placeholder {
+    color: #c4c4c4;
+    font-size: 14px;
+}
+.btn_right{
+    float: right;
+}
+/*Contact form Section End*/
